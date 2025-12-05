@@ -9,13 +9,14 @@ body {
     padding: 0px;
     background-color: #FFFFFF;
 }
-
 .navbar-main-container {
-    background-color: #07a3f7;
+    background-color: #0077B6;
     padding: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0;
 }
 
 .navbar-main-container:hover {
@@ -38,7 +39,7 @@ body {
 }
 
 .heading {
-    font-size: 20px;
+    font-size: 30px;
     color: #FFFFFF;
     cursor: pointer;
 }
@@ -60,82 +61,49 @@ body {
     cursor: pointer;
 }
 
-.main-image {
-    margin-top: 20px;
-    width: 600px;
-    max-width: 600px;
-    border-radius: 20px;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
-}
-
-.main-content-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.main-heading {
-    font-size: 40px;
-    font-weight: bold;
-    font-style: italic;
-}
-
-.project-sub-heading {
-    font-size: 20px;
-    font-style: italic;
-    font-weight: bold;
-}
-
-.btn-1 {
-    display: inline-block;
-    padding: 12px 22px;
-    background: #FF6F00;
-    color: #FFFFFF;
-    text-decoration: none;
-    font-size: 18px;
-    border-radius: 8px;
-    transition: 0.3s;
-    cursor: pointer;
-}
-
-.btn-1:hover {
-    background: #0077B6;
-}
-
-.signup {
+.sinup {
     color: #f8fbff;
+    text-decoration: none;
 }
 
 .login {
     color: #f8fbff;
+    text-decoration: none;
 }
 
 .contact {
     color: #f8fbff;
+    text-decoration: none;
 }
 
 .home {
     color: #f8fbff;
+    text-decoration: none;
 }
 
 .about {
     color: #f8fbff;
+    text-decoration: none;
 }
 
 .destination {
     color: #f8fbff;
+    text-decoration: none;
 }
 
 .services {
     color: #f8fbff;
+    text-decoration: none;
 }
 
 .booking {
     color: #f8fbff;
+    text-decoration: none;
 }
-.package{
-       color: #f8fbff;
+
+.packages {
+    color: #f8fbff;
+    text-decoration: none;
 }
 .travel {
     font-size: 40px;
@@ -152,20 +120,23 @@ body {
         font-size: 28px;
         font-weight: bold;
     }
-    /* Video Styling */
-.video-box {
-  width:100%;
-  max-width:none;
-  border-radius: 16px;
-  overflow: hidden;
-  box-shadow: 0 10px 40px rgba(255, 255, 255, 0.2);
+ /* Video Styling */
+video-box {
+    width: 100%;
+    max-width: 700px; /* Changed from 1340px/1200px to 700px to make it smaller */
+    margin: 30px auto; /* Centers the video box */
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
 }
+
 video {
-  width:1340px;
-  padding: 0%;
-  display: block;
-  border-radius: 16px;
+    width: 100%; /* Fills the smaller box */
+    height: auto;
+    display: block;
+    border-radius: 16px;
 }
+
 
     .container {
         display: grid;
@@ -211,41 +182,162 @@ video {
         text-align: center;
         padding: 10px;
         margin-top: 10px;
-        background: #0055b3;
+background-color: #FF6F00;
         color: white;
         border-radius: 8px;
         text-decoration: none;
         font-weight: bold;
     }
-    .btn:hover { background: #ec1203; }
+    .btn:hover { background: blue; }
+.footer {
+    width: 100%;
+    background: #0077B6;
+    color: #ffffff;
+    padding: 40px 30px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-    footer {
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1150px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    width: 22%;
+    margin-bottom: 20px;
+}
+
+.travel-logo {
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.heading-top {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    gap: 2px;
+}
+
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-direction: column;
+}
+
+.social-logo{
+    border-radius: 50px;
+    margin-right: 10px;
+     display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.social-icons a:hover {
+    transform: scale(1.1);
+}
+
+.footer-section h2,
+.footer-section h3 {
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.footer-section p,
+.footer-section li {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.footer-section a:hover {
+    color: #ffffff;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #ffffff44;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    .footer-col {
+        width: 100%;
         text-align: center;
-        padding: 15px;
-        background: #0055b3;
-        color: white;
-        margin-top: 20px;
     }
+
+    .social-icons {
+        justify-content: center;
+    }
+}
+
+
 </style>
 </head>
 <body>
-    <div class="logo-container">
-            <img src="/images/travel-seeker-logo.jpg" alt="logo" height="70px" class="main-logo" />
+<div class="navbar-main-container">
+        <div class="logo-container">
+            <img src="./../images/travelseekerslogo.jpg" alt="logo" height="70px" class="main-logo" />
             <span><b class="heading">Travelseekers</b></span>
         </div>
         <div>
             <ul class="nav-links">
-                <a href="./index.html" class="home">Home</a>
+                <a href="./../index.html" class="home">Home</a>
                 <a href="./about.html" class="about">About</a>
                 <a href="./destination.html" class="destination">Destination</a>
                 <a href="./service.html" class="services">Services</a>
                 <a href="./booking.html" class="booking">booking</a>
-                <a href="./package.html" class="package">package</a>
-                <a href="./contact.html" class="contact">Contact</a>
-                <a href="./login.html" class="login">Login</a>
-                <a href="./signup.html" class="signup">Signup</a>
+                <a href="./package.html" class="packages">Packages</a>
             </ul>
         </div>
+        <div>
+            <ul class="auth-nav-links">
+                <a href="./contact.html" class="contact">Contact</a>
+                <a href="./login.html" class="login">Login</a>
+                <a href="./signup.html" class="sinup">Sinup</a>
+            </ul>
+        </div>
+    </div>
 
 <header>Top Travel Destinations & Holiday Packages</header>
 <div class="video-box">
@@ -392,10 +484,81 @@ video {
 
 
 </div>
+</div>
+<footer class="footer">
+        <div class="footer-container">
 
-<footer>
-    © 2025 World Tour Packages • All Rights Reserved
-</footer>
+            <!-- About -->
+            <div class="footer-section about">
+                <div class="heading-top">
+                    <img src="./../images/travelseekerslogo.jpg" alt="logo" height="50px" class="travel-logo" />
+                    <span class="footer-heading">Travel Seeker</span>
+                </div>
+                <p>Explore the world with us. We help you discover beautiful places, book memorable tours, and travel
+                    stress-free!</p>
 
+
+
+            </div>
+
+
+            <!-- Quick Links -->
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="./../index.html">Home</a></li>
+                    <li><a href="./destination.html">Destinations</a></li>
+                    <li><a href="./package.html">Tour Packages</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact -->
+            <div class="footer-section contact">
+                <h3>Contact Us</h3>
+                <a href="https://maps.app.goo.gl/FUHLmwkizaBBHv5m6">
+                    <p>📍 Tower-30 NRI complex,Seawoodws Nerul Navi Mumbai-400706</p>
+                </a>
+                <a href="mailto:Travelseekers@gmail.com">📧 Travelseekers@gmail.com</a>
+                <a href="tel:+0001234567">
+                    <p>📞 +000 123 4567</p>
+                </a>
+
+
+            </div>
+
+            <!-- Social Media -->
+            <div class="footer-section social">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/">
+                        <b class="social-logo">Instagram</b>
+                        <img src="./../images/instagram.png" alt="Instagram">
+                    </a>
+                    <a href="https://www.facebook.com/">
+                        <b class="social-logo">Facebook</b>
+                        <img src="./../images/facebook.png" alt="Facebook">
+                    </a>
+                    <a href="https://linkedin.com/">
+                        <b class="social-logo">LinkedIn</b>&nbsp;&nbsp;
+                        <img src="./../images/linkedin.png" alt="LinkedIn">
+                    </a>
+                    <a href="https://www.youtube.com/">
+                        <b class="social-logo">YouTube</b>&nbsp;&nbsp;
+                        <img src="./../images/youtube.png" alt="YouTube">
+                    </a>
+                    <a href="https://x.com/">
+                        <b class="social-logo">Twitter</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <img src="./../images/twitter.png" alt="Twitter">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Travel Seeker | All Rights Reserved</p>
+        </div>
+    </footer>
 </body>
 </html>
