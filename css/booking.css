@@ -385,38 +385,46 @@ body {
     padding-left:40%;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 1024px) {
 
-  /* NAVBAR RESPONSIVE*/
+    body {
+        font-size: 15px;
+        width: auto;
+    }
 
-  .navbar-main-container {
-      flex-direction: column;
-      text-align: center;
-      gap: 15px;
-  }
+    .container {
+        flex-direction: column;
+        padding: 30px 40px;
+    }
 
-  .logo-container {
-      justify-content: center;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-  }
+    .navbar-main-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        position: relative;
+    }
 
-  .nav-links,
-  .auth-nav-links {
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-      padding: 0;
-      text-align: center;
-  }
+    .logo-container {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
 
-  .nav-links a,
-  .auth-nav-links a {
-      font-size: 16px;
-      display: block;
-  }
+    .nav-links,
+    .auth-nav-links {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        padding: 0;
+        text-align: center;
+    }
 
+    .nav-links a,
+    .auth-nav-links a {
+        font-size: 16px;
+        display: flex;
+    }
   /*HERO SECTION RESPONSIVE */
 
   .hero {
@@ -429,10 +437,12 @@ body {
   .hero-left h1 {
       font-size: 26px;
       line-height: 32px;
+      display: flex;
   }
 
   .hero-left p {
       font-size: 15px;
+      
   }
 
   .learn-btn {
@@ -444,8 +454,11 @@ body {
 
   .hero-form {
       width: 100%;
-      padding: 20px;
+      padding-bottom: 450px;
+      margin-top: 1000px;
+      margin-right: 600px;
       margin: 0 auto;
+       margin-bottom: 1200px;
   }
 
   .hero-form select,
@@ -482,8 +495,8 @@ body {
 }
 /* FOOTER RESPONSIVE DESIGN */
 @media (max-width: 768px) {
-  .footer-container {
-      display: flex;
+.footer-container {
+      display:flex;
       flex-direction: column;
       gap: 25px;
       text-align: center;
