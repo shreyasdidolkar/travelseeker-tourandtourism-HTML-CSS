@@ -74,6 +74,7 @@ body {
 
 .contact {
     color: #f8fbff;
+    font-size: 20px;
     text-decoration: none;
 }
 
@@ -91,6 +92,7 @@ body {
 
 .destination {
     color: #f8fbff;
+    font-size: 20px;
     text-decoration: none;
 }
 
@@ -284,11 +286,11 @@ body {
     cursor: pointer;
 }
 
-.social-logo{
+.social-logo {
     border-radius: 50px;
     margin-right: 10px;
-     display: flex;
-    flex-direction: column; 
+    display: flex;
+    flex-direction: column;
     gap: 12px;
     margin-top: 10px;
     cursor: pointer;
@@ -362,14 +364,136 @@ body {
 }
 
 /* Responsive */
-@media (max-width: 480px) {
-    .footer-col {
-        width: 100%;
+@media screen and (max-width: 1024px) {
+
+    body {
+        font-size: 15px;
+        width: auto;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 30px 40px;
+    }
+
+    .navbar-main-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        position: relative;
+    }
+
+    .logo-container {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .nav-links,
+    .auth-nav-links {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        padding: 0;
         text-align: center;
     }
 
-    .social-icons {
-        justify-content: center;
+    .nav-links a,
+    .auth-nav-links a {
+        font-size: 16px;
+        display: flex;
+    }
+
+    .quote {
+        font-size: 35px;
+
+    }
+
+    .login-card {
+        margin-right: 10px;
+        margin-bottom: 700px;
+
+    }
+
+    .footer {
+        padding: 30px 40px;
+        width: auto;
+
+    }
+
+    .footer-container {
+        display: block;
+        width: 100%;
+        align-items: center;
+        justify-items: center;
+
+        flex-direction: column;
+    }
+
+    .footer-container {
+        gap: 50px;
+        padding: 30px 40px;
+    }
+
+    .footer-bottom {
+        width: auto;
+        text-align: center;
+
+
+    }
+
+    .footer-section links {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 600px) {
+
+    .about-container {
+        flex-direction: column;
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    .about-text,
+    .about-img {
+        width: 100%;
+    }
+
+    .about-img img {
+        width: 100%;
+        max-width: 300px;
+        margin: auto;
+    }
+
+    .staff-section {
+        padding: 30px 20px;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+
+    .intro {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .staff-card {
+        padding: 20px;
+    }
+
+    .staff-card img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .staff-card h3 {
+        font-size: 18px;
+    }
+
+    .position {
+        font-size: 14px;
     }
 }
 
