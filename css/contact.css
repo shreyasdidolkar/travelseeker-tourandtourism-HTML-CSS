@@ -109,6 +109,11 @@ body {
     text-decoration: none;
         font-size: 20px;
 }
+.package {
+    color: #f8fbff;
+    text-decoration: none;
+        font-size: 20px;
+}
 
 .container {
     max-width: 800px;

@@ -35,9 +35,10 @@ body {
 }
 
 .heading {
-  font-size: 30px;
+  font-size: 35px;
   color: #FFFFFF;
   cursor: pointer;
+  font-family: "Merriweather",serif;
 }
 
 .nav-links {
@@ -103,59 +104,85 @@ body {
 .signup {
   color: #f8fbff;
   text-decoration: none;
+  font-family: "Merriweather",serif;
+  font-size: 20px;
+   font-size: 20px;
 }
 
 .login {
   color: #f8fbff;
   text-decoration: none;
+ font-family: "Merriweather",serif;
+  font-size: 20px;
+   font-size: 20px;
 
 }
 
 .contact {
   color: #f8fbff;
   text-decoration: none;
+   font-family: "Merriweather",serif;
+  font-size: 20px;
+   font-size: 20px;
 }
 
 .home {
   color: #f8fbff;
   text-decoration: none;
+   font-family: "Merriweather",serif;
+  font-size: 20px;
 }
 
 .about {
   color: #f8fbff;
   text-decoration: none;
+   font-family: "Merriweather",serif;
+  font-size: 20px;
+  
 }
 
 .destination {
   color: #f8fbff;
   text-decoration: none;
+   font-family: "Merriweather",serif;
+  font-size: 20px;
+ 
 }
 
 .services {
   color: #f8fbff;
   text-decoration: none;
+   font-family: "Merriweather",serif;
+  font-size: 20px;
+  
 }
 
 .booking {
   color: #f8fbff;
   text-decoration: none;
+   font-family: "Merriweather",serif;
+  font-size: 20px;
+  
 }
 
 .packages {
   color: #f8fbff;
   text-decoration: none;
+   font-family: "Merriweather",serif;
+  font-size: 20px;
 }
 
 
 .hero {
   height: 100%;
-  background: url(./../images/login-page-img.jpg) no-repeat center/cover;
+  background: url(./../images/booking-8.jpg) no-repeat center/cover;
   display: flex;
   align-items: center;
   padding-bottom: 300px;
   padding: 25px;
   padding-right: 50px;
 }
+
 
 /* LEFT CONTENT */
 .hero-left {
@@ -164,17 +191,20 @@ body {
   padding-bottom: 600px;
   padding-left: 60px;
   padding-top: 320px;
+  
 }
 
 .hero-left h1 {
-  font-size: 45px;
-  font-weight: 700;
+  font-size: 55px;
+  font-weight: 600;
   margin-bottom: 20px;
+  
+  font-family: "playfair display",serif;
 }
 
 .hero-left p {
   width: 80%;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.6;
   margin-bottom: 30px;
 }
@@ -385,38 +415,46 @@ body {
     padding-left:40%;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 1024px) {
 
-  /* NAVBAR RESPONSIVE*/
+    body {
+        font-size: 15px;
+        width: auto;
+    }
 
-  .navbar-main-container {
-      flex-direction: column;
-      text-align: center;
-      gap: 15px;
-  }
+    .container {
+        flex-direction: column;
+        padding: 30px 40px;
+    }
 
-  .logo-container {
-      justify-content: center;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-  }
+    .navbar-main-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        position: relative;
+    }
 
-  .nav-links,
-  .auth-nav-links {
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-      padding: 0;
-      text-align: center;
-  }
+    .logo-container {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
 
-  .nav-links a,
-  .auth-nav-links a {
-      font-size: 16px;
-      display: block;
-  }
+    .nav-links,
+    .auth-nav-links {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        padding: 0;
+        text-align: center;
+    }
 
+    .nav-links a,
+    .auth-nav-links a {
+        font-size: 16px;
+        display: flex;
+    }
   /*HERO SECTION RESPONSIVE */
 
   .hero {
@@ -429,10 +467,12 @@ body {
   .hero-left h1 {
       font-size: 26px;
       line-height: 32px;
+      display: flex;
   }
 
   .hero-left p {
       font-size: 15px;
+      
   }
 
   .learn-btn {
@@ -444,8 +484,11 @@ body {
 
   .hero-form {
       width: 100%;
-      padding: 20px;
+      padding-bottom: 450px;
+      margin-top: 1000px;
+      margin-right: 600px;
       margin: 0 auto;
+       margin-bottom: 1200px;
   }
 
   .hero-form select,
@@ -482,8 +525,8 @@ body {
 }
 /* FOOTER RESPONSIVE DESIGN */
 @media (max-width: 768px) {
-  .footer-container {
-      display: flex;
+.footer-container {
+      display:flex;
       flex-direction: column;
       gap: 25px;
       text-align: center;
