@@ -7,7 +7,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 
-    
 }
 
 .navbar-main-container {
@@ -19,7 +18,8 @@ body {
     font-size: 20px;
     font-weight: 300;
     margin: 0  25px;
-    
+    position: sticky;
+    top: 0;
 }
 
 .navbar-main-container:hover {
