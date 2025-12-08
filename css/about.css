@@ -39,6 +39,7 @@ body {
 
 .heading {
     font-size: 30px;
+    font-family: "merriweather", serif;
     color: #FFFFFF;
     cursor: pointer;
 }
