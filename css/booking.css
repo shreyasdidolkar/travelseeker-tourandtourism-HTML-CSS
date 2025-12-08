@@ -38,7 +38,6 @@ body {
   font-size: 35px;
   color: #FFFFFF;
   cursor: pointer;
-   font-family: "merriweather",serif;
 }
 
 .nav-links {
@@ -104,64 +103,56 @@ body {
 .signup {
   color: #f8fbff;
   text-decoration: none;
-  font-family: "merriweather",serif;
-       font-size: 20px;
+   font-size: 20px;
 }
 
 .login {
   color: #f8fbff;
   text-decoration: none;
-  font-family: "merriweather",serif;
-       font-size: 20px;
+   font-size: 20px;
+
 }
 
 .contact {
   color: #f8fbff;
   text-decoration: none;
-    font-family: "merriweather",serif;
-       font-size: 20px;
+   font-size: 20px;
 }
 
 .home {
   color: #f8fbff;
   text-decoration: none;
-     font-family: "merriweather",serif;
-       font-size: 20px;
+   font-size: 20px;
 }
 
 .about {
   color: #f8fbff;
   text-decoration: none;
-    font-family: "merriweather",serif;
-       font-size: 20px;
+   font-size: 20px;
 }
 
 .destination {
   color: #f8fbff;
   text-decoration: none;
-    font-family: "merriweather",serif;
-       font-size: 20px;
+   font-size: 20px;
 }
 
 .services {
   color: #f8fbff;
   text-decoration: none;
-    font-family: "merriweather",serif;
-       font-size: 20px;
+   font-size: 20px;
 }
 
 .booking {
   color: #f8fbff;
   text-decoration: none;
-    font-family: "merriweather",serif;
-       font-size: 20px;
+   font-size: 20px;
 }
 
 .packages {
   color: #f8fbff;
   text-decoration: none;
-    font-family: "merriweather",serif;
-       font-size: 20px;
+   font-size: 20px;
 }
 
 
@@ -175,6 +166,7 @@ body {
   padding-right: 50px;
 }
 
+
 /* LEFT CONTENT */
 .hero-left {
   width: 100%;
@@ -182,13 +174,13 @@ body {
   padding-bottom: 600px;
   padding-left: 60px;
   padding-top: 320px;
+  
 }
 
 .hero-left h1 {
-  font-size: 55px;
+  font-size: 45px;
   font-weight: 700;
   margin-bottom: 20px;
-  font-family: "Playfair Display", serif;
 }
 
 .hero-left p {

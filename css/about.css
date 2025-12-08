@@ -64,54 +64,63 @@ body {
     color: #f8fbff;
     font-size: 20px;
     text-decoration: none;
+    font-family: "merriweather", serif;
 }
 
 .login {
     color: #f8fbff;
     font-size: 20px;
     text-decoration: none;
+    font-family: "merriweather", serif;
 }
 
 .contact {
     color: #f8fbff;
     font-size: 20px;
     text-decoration: none;
+    font-family: "merriweather", serif;
 }
 
 .home {
     color: #f8fbff;
     font-size: 20px;
     text-decoration: none;
+    font-family: "merriweather", serif;
 }
 
 .about {
     color: #f8fbff;
     font-size: 20px;
     text-decoration: none;
+    font-family: "merriweather", serif;
 }
 
 .destination {
     color: #f8fbff;
     font-size: 20px;
     text-decoration: none;
+    font-family: "merriweather", serif;
 }
 
 .services {
     color: #f8fbff;
     font-size: 20px;
     text-decoration: none;
+    font-family: "merriweather", serif;
 }
 
 .booking {
     color: #f8fbff;
     font-size: 20px;
     text-decoration: none;
+    font-family: "merriweather", serif;
 }
 
 .package {
     color: #f8fbff;
     font-size: 20px;
     text-decoration: none;
+    font-family: "merriweather", serif;
 }
 
 
@@ -238,6 +247,7 @@ body {
     color: #FF6F00;
     font-weight: bold;
 }
+
 .footer {
     width: 100%;
     background: #0077B6;
@@ -447,6 +457,7 @@ body {
         width: 100%;
     }
 }
+
 @media screen and (max-width: 600px) {
 
     .about-container {
