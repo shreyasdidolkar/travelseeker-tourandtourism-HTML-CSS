@@ -17,7 +17,7 @@ body {
     align-items: center;
     font-size: 20px;
     font-weight: 300;
-    margin: 0  25px;
+    margin: 0;
     position: sticky;
     top: 0;
 }
@@ -52,9 +52,9 @@ body {
     color: none;
     display: flex;
     gap: 30px;
-    cursor: pointer;
     padding: 15px;
     font-size: 20px;
+    cursor: pointer;
 
 }
 
